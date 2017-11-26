@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root to: 'pages#home'
+  root to: 'index#index'
   get '/create', to: 'pages#create'
 
   get '/show', to: 'pages#show'
